@@ -9,6 +9,9 @@
 [![Fabric](https://img.shields.io/badge/Fabric-Loader-blue.svg?style=for-the-badge)](https://fabricmc.net/)
 [![Version](https://img.shields.io/badge/Version-8.0.0-purple.svg?style=for-the-badge)]()
 
+
+<img width="2172" height="724" alt="rootv8" src="https://github.com/user-attachments/assets/23fa0f9f-bdc8-4505-b15f-0efe4164b22f" />
+
 </div>
 
 ## Descripción General
@@ -20,10 +23,6 @@
 > El repositorio solo contendrá las siguientes carpetas:
 > - **`RootMod`**: Contiene la versión principal, estable y funcional exportada a `.jar` lista para usar.
 > - **`OLDvers`**: Contiene versiones antiguas, experimentales o incompletas. Algunas pueden funcionar pero muchas otras pueden ser inestables, tener funciones rotas o estar desactualizadas. Úsalas con precaución.
-
----
-<img width="1877" height="429" alt="Captura de pantalla 2026-07-24 132021" src="https://github.com/user-attachments/assets/eacec5f5-eac3-47ca-919e-b8e7dd4b2690" />
-<img width="1919" height="957" alt="Captura de pantalla 2026-07-24 131808" src="https://github.com/user-attachments/assets/2aaa8ac2-62cf-4e6a-95a6-b17ff84d5fc3" />
 
 ## Módulos y Opciones
 
