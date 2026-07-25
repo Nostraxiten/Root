@@ -24,6 +24,8 @@
 > - **`RootMod`**: Contiene la versión principal, estable y funcional exportada a `.jar` lista para usar.
 > - **`OLDvers`**: Contiene versiones antiguas, experimentales o incompletas. Algunas pueden funcionar pero muchas otras pueden ser inestables, tener funciones rotas o estar desactualizadas. Úsalas con precaución.
 
+<img width="1919" height="472" alt="Captura de pantalla 2026-07-25 040915" src="https://github.com/user-attachments/assets/6ee9fbcf-14b7-4b81-999e-be1364de4b02" />
+
 ## Módulos y Opciones
 
 El menú cuenta con una extensa lista de módulos organizados cuidadosamente por categoría. A continuación, se detalla **qué hace exactamente cada opción**.
