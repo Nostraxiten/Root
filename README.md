@@ -1,6 +1,6 @@
-<div align="center">
+﻿<div align="center">
 
-# NoxMenu
+# Root
 
 *Framework modular de cliente Fabric para Minecraft 1.21.5*
 
@@ -13,10 +13,10 @@
 
 ## Descripción General
 
-**NoxMenu** es un cliente en desarrollo temprano. Cualquier error encontrado podría reportarse dentro del repositorio para soluciones futuras.
+**Root** es un cliente en desarrollo temprano. Cualquier error encontrado podría reportarse dentro del repositorio para soluciones futuras.
 
 > **Nota importante sobre el Repositorio (GitHub):**
-> Al subirse a GitHub, el código fuente privado (`NoxMenuCode`) no se incluirá en el repositorio remoto.
+> Al subirse a GitHub, el código fuente privado (`RootCode`) no se incluirá en el repositorio remoto.
 > El repositorio solo contendrá las siguientes carpetas:
 > - **`RootMod`**: Contiene la versión principal, estable y funcional exportada a `.jar` lista para usar.
 > - **`OLDvers`**: Contiene versiones antiguas, experimentales o incompletas. Algunas pueden funcionar pero muchas otras pueden ser inestables, tener funciones rotas o estar desactualizadas. Úsalas con precaución.
