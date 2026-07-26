@@ -23,9 +23,7 @@
 > - **`RootMod`**: Contiene la versión principal, estable y lista para usar, ya exportada en formato instalable.
 > - **`OLDvers`**: Contiene versiones antiguas o experimentales. Algunas funcionan bien, pero otras pueden ser inestables, tener fallos o cerrar el juego. Úsalas con precaución.
 
-<img width="1919" height="472" alt="Captura de pantalla 2026-07-25 040915" src="https://github.com/user-attachments/assets/6ee9fbcf-14b7-4b81-999e-be1364de4b02" />
-
-<img width="1919" height="472" alt="Captura de pantalla 2026-07-25 040915" src="https://github.com/user-attachments/assets/6ee9fbcf-14b7-4b81-999e-be1364de4b02" />
+<img width="1822" height="477" alt="image" src="https://github.com/user-attachments/assets/9850f771-4727-4de8-8fad-7c36c8222197" />
 
 ## Módulos y Opciones
 
