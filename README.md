@@ -9,9 +9,7 @@
 [![Fabric](https://img.shields.io/badge/Fabric-Loader-blue.svg?style=for-the-badge)](https://fabricmc.net/)
 [![Version](https://img.shields.io/badge/Version-10.0.0-purple.svg?style=for-the-badge)]()
 
-
-
-<img width="2172" height="724" alt="rootv10" src="https://github.com/user-attachments/assets/23fa0f9f-bdc8-4505-b15f-0efe4164b22f" />
+<img width="1881" height="836" alt="image" src="https://github.com/user-attachments/assets/1dd7306d-52e6-4a7d-abbe-49e54d8ef7b7" />
 
 </div>
 
