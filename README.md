@@ -273,7 +273,7 @@ Optimiza la carga y el dibujado del terreno.
 
 ## Novedades
 
-### v10.0.0 — RootV10 — 2026-07-26
+### v10.0.0 — RootV10
 
 #### Nuevos Módulos
 - **NightVision (Mundo)**: Visión nocturna permanente sin necesidad de poción. Sin icono en pantalla, indetectable por el servidor, sin límite de duración. Intensidad configurable (0.1–1.0). Compatible con la visión nocturna real de una poción (pueden coexistir sin problema). Funciona en todas las dimensiones: Overworld, Nether, End, bajo el agua, en cuevas.
