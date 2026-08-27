@@ -1,0 +1,51 @@
+plugins {
+	id 'net.fabricmc.fabric-loom' version "${loom_version}"
+	id 'java'
+}
+
+version = project.mod_version
+group = project.maven_group
+
+base {
+	archivesName = project.archives_base_name
+}
+
+tasks.withType(AbstractArchiveTask).configureEach {
+    archiveVersion.set("")
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	// Minecraft 26.2+ ships unobfuscated; Mojang mappings are resolved by Loom
+	// automatically (no explicit "mappings" artifact needed, unlike the old Yarn setup).
+	minecraft "com.mojang:minecraft:${project.minecraft_version}"
+	implementation "net.fabricmc:fabric-loader:${project.loader_version}"
+	implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+}
+
+processResources {
+	inputs.property "version", project.version
+
+	filesMatching("fabric.mod.json") {
+		expand "version": project.version
+	}
+}
+
+java {
+	withSourcesJar()
+	// Toolchain instead of a plain release flag: this lets Gradle itself keep
+	// running under whatever JDK launched it (JDK 21 in this environment, to
+	// dodge a JDK 25 Windows-loopback-socket bug in this sandbox) while the
+	// actual compilation is done with a real JDK 25, auto-detected via
+	// org.gradle.java.installations.paths in gradle.properties.
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(25)
+	}
+}
+
+loom {
+	// accessWidenerPath = file("src/main/resources/noxmenu.accesswidener")
+}

@@ -1,0 +1,18 @@
+NoxMenuCode/
+INSTRUCCIONES_DE_COMPILACION.md
+
+# Generated Gradle and Minecraft files
+Code/RootCode/.gradle/
+Code/RootCode/build/
+Code/RootCode/run/
+Code/RootCode/jdk25/
+Code/RootCode/jdk25.zip
+Code/RootCode/*.zip
+Code/RootMod/
+Code/RootCode/**/*.jar
+
+# Local IDE and OS files
+.idea/
+*.iml
+.vscode/
+Thumbs.db

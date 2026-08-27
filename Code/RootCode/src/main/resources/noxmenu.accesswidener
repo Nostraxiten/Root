@@ -1,0 +1,10 @@
+accessWidener	v2	named
+
+# Options.gamma is private, but already exposes a public accessor method
+# gamma() in 26.2 (verified via client.jar bytecode), so no widener needed
+# for FullBright anymore.
+
+# Minecraft - rightClickDelay (Mojang official name; equivalent of the old
+# Yarn "itemUseCooldown") for various modules.
+# Verified via decompiled 26.2 client.jar bytecode (javap).
+accessible	field	net/minecraft/client/Minecraft	rightClickDelay	I
