@@ -9,7 +9,7 @@
 [![Fabric](https://img.shields.io/badge/Fabric-Loader-blue.svg?style=for-the-badge)](https://fabricmc.net/)
 [![Version](https://img.shields.io/badge/Version-26.2-purple.svg?style=for-the-badge)]()
 
-<img width="974" height="258" alt="image" src="https://github.com/user-attachments/assets/443b4de4-0b67-4a3a-8f15-c1d9babd8f35" />
+<img width="755" height="201" alt="Captura de pantalla 2026-08-27 174803" src="https://github.com/user-attachments/assets/bc9e38cc-a89b-4097-b1e9-4691a8bd5ce8" />
 
 </div>
 
@@ -22,8 +22,6 @@
 > - **`Code/`**: client source, including `RootCode/src` and the pending render port.
 > - **`CompiledMod/`**: compiled JAR ready to install.
 > Build caches, local game data, bundled JDK files, and other generated files are excluded from version control.
-
-<img width="1822" height="477" alt="image" src="https://github.com/user-attachments/assets/9850f771-4727-4de8-8fad-7c36c8222197" />
 
 ## Modules and Options
 
