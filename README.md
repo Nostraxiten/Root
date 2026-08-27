@@ -7,7 +7,7 @@
 [![Java 21](https://img.shields.io/badge/Java-21-orange.svg?style=for-the-badge)](https://openjdk.org/)
 [![Minecraft](https://img.shields.io/badge/Minecraft-26.2-green.svg?style=for-the-badge)](https://www.minecraft.net/)
 [![Fabric](https://img.shields.io/badge/Fabric-Loader-blue.svg?style=for-the-badge)](https://fabricmc.net/)
-[![Version](https://img.shields.io/badge/Version-26.2-purple.svg?style=for-the-badge)]()
+[![Version](https://img.shields.io/badge/Version-10.0.0-purple.svg?style=for-the-badge)]()
 
 <img width="755" height="201" alt="Captura de pantalla 2026-08-27 174803" src="https://github.com/user-attachments/assets/bc9e38cc-a89b-4097-b1e9-4691a8bd5ce8" />
 
