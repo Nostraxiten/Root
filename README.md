@@ -17,9 +17,6 @@
 
 **Root v1** is a client-side utility mod for **Minecraft 26.3**. It includes combat automation, movement utilities, render helpers, world tools, and performance optimizers. The GUI is opened with **Ctrl + Tab** in-game.
 
-> [!WARNING]
-> The author is not responsible for misuse on public servers. Use at your own risk.
-
 ---
 
 ## Installation
@@ -153,6 +150,9 @@ Output: `RootCode\build\libs\RootV1-26.3.jar`
 - **Render pipeline:** `SubmitNodeCollector` + `RenderPipelines` (Blaze3D RenderPearl).
 - **Config persistence:** Saved automatically on every toggle and on game close → `.minecraft/root-config/modules.json`.
 - **Keybinds:** Right-click any module in the GUI to assign a key. `Backspace`/`Delete` to clear.
+
+> [!WARNING]
+> The author is not responsible for misuse on public servers. Use at your own risk.
 
 ---
 
