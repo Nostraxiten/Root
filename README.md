@@ -8,6 +8,8 @@
 [![Minecraft](https://img.shields.io/badge/Minecraft-26.3-green.svg?style=for-the-badge)](https://www.minecraft.net/)
 [![Fabric](https://img.shields.io/badge/Fabric%20Loader-0.19.5-blue.svg?style=for-the-badge)](https://fabricmc.net/)
 
+<img width="1368" height="656" alt="image" src="https://github.com/user-attachments/assets/39abb6c8-b59f-499b-90b8-b44664788916" />
+
 </div>
 
 ---
