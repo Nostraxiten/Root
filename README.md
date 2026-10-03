@@ -2,7 +2,7 @@
 
 # Root v1
 
-### A Fabric utility mod for Minecraft 26.3 ("Wilderness Bound")
+### A Fabric utility mod for Minecraft 26.3
 
 [![Java 25](https://img.shields.io/badge/Java-25-orange.svg?style=for-the-badge)](https://openjdk.org/)
 [![Minecraft](https://img.shields.io/badge/Minecraft-26.3-green.svg?style=for-the-badge)](https://www.minecraft.net/)
