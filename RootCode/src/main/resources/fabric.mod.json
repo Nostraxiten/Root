@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "noxmenu",
+	"version": "${version}",
+	"name": "NoxMenu",
+	"description": "Modular mod menu with 56 modules across 7 categories",
+	"authors": ["Nox"],
+	"contact": {},
+	"license": "MIT",
+	"icon": "assets/noxmenu/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.nox.menu.NoxMenuMod"
+		]
+	},
+	"mixins": [
+		"noxmenu.mixins.json"
+	],
+	"accessWidener": "noxmenu.accesswidener",
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

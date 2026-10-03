@@ -1,0 +1,18 @@
+pluginManagement {
+	repositories {
+		maven {
+			name = 'Fabric'
+			url = 'https://maven.fabricmc.net/'
+		}
+		mavenCentral()
+		gradlePluginPortal()
+	}
+}
+
+// Foojay Toolchain Resolver: permite que Gradle descargue automaticamente JDK 25
+// si no esta en PATH ni en JAVA_HOME, sin rutas absolutas hardcodeadas.
+plugins {
+	id 'org.gradle.toolchains.foojay-resolver-convention' version '0.9.0'
+}
+
+rootProject.name = 'NoxMenuCode'

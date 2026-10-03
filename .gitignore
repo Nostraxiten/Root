@@ -1,0 +1,25 @@
+﻿# Build output
+RootCode/build/
+RootCode/.gradle/
+RootCode/run/
+
+# JDK bundled (141 MB zip)
+RootCode/jdk25.zip
+RootCode/jdk25/
+
+# Minecraft run cache
+RootCode/run/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Compilation instructions (internal)
+RootCode/INSTRUCCIONES_DE_COMPILACION.md
+RootCode/TestInput.java
+RootCode/build_log.txt

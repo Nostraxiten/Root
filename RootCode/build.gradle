@@ -1,0 +1,49 @@
+plugins {
+	id 'net.fabricmc.fabric-loom' version "${loom_version}"
+	id 'java'
+}
+
+version = project.mod_version
+group = project.maven_group
+
+base {
+	archivesName = project.archives_base_name
+}
+
+tasks.withType(AbstractArchiveTask).configureEach {
+    archiveVersion.set("")
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	// Minecraft 26.x usa nombres oficiales de Mojang (sin ofuscar);
+	// Loom resuelve el mapeo automaticamente sin declarar artefacto "mappings".
+	minecraft "com.mojang:minecraft:${project.minecraft_version}"
+	implementation "net.fabricmc:fabric-loader:${project.loader_version}"
+	implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+}
+
+processResources {
+	inputs.property "version", project.version
+
+	filesMatching("fabric.mod.json") {
+		expand "version": project.version
+	}
+}
+
+java {
+	withSourcesJar()
+	// Toolchain de Java 25: Gradle lo descarga via Foojay si no esta disponible.
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(25)
+	}
+}
+
+loom {
+	// el access widener declara Minecraft.rightClickDelay como accesible;
+	// fue comentado antes pero es necesario para FastPlace.
+	accessWidenerPath = file("src/main/resources/noxmenu.accesswidener")
+}
