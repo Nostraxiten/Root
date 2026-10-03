@@ -7,7 +7,6 @@
 [![Java 25](https://img.shields.io/badge/Java-25-orange.svg?style=for-the-badge)](https://openjdk.org/)
 [![Minecraft](https://img.shields.io/badge/Minecraft-26.3-green.svg?style=for-the-badge)](https://www.minecraft.net/)
 [![Fabric](https://img.shields.io/badge/Fabric%20Loader-0.19.5-blue.svg?style=for-the-badge)](https://fabricmc.net/)
-[![Build](https://img.shields.io/badge/Build-SUCCESSFUL-brightgreen.svg?style=for-the-badge)]()
 
 </div>
 
